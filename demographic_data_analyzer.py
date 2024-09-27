@@ -2,7 +2,7 @@ import pandas as pd
 
 def calculate_demographic_data(print_data=True):
     # Ler os dados do arquivo CSV
-    df = pd.read_csv('adult.data.csv')  # Certifique-se de usar o nome correto do arquivo CSV
+    df = pd.read_csv('adult.data.csv')  
 
     # Quantidade de pessoas de cada raça
     race_count = df['race'].value_counts()
